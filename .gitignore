@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Training artifacts
+*.log
+training.log
+training_new.log
+evaluation_log.txt
+nohup.out
+
+# Project logs/artifacts (kept out of the submission repository)
+project/logs/**
+!project/logs/**/
+!project/logs/.gitkeep
+
+# Optional local outputs
+project/outputs/**
+!project/outputs/.gitkeep
+
+# Temporary test files (root level only)
+/test_*.py
+/test_*.sh
+/final_test_wsl.sh
+
+# Local setup helpers moved under project/
+project/scripts/setup/test_env_quick.py
+project/scripts/setup/*.sh
+project/docs/development/setup/WSL_QUICKSTART.md
+
+# Local raw console logs archived under reports/
+project/experiments/reports/raw_logs/**
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary WSL setup files
+setup_wsl_env.sh
+WSL_QUICKSTART.md
+
